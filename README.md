@@ -1,5 +1,9 @@
 # React-Project
-A Single page application(SPA) in React
+A Single page application(SPA) in React (Actually It is a side project and I just build it for fun and to showcase my work)
+
+## Deployed
+
+I deployed it on netlify and If you wanna see the end-result, here is the link(https://romantic-lumiere-eb7f1b.netlify.app).
 
 ## Available Scripts
 In the project directory, you can run:
