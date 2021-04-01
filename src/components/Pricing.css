@@ -1,0 +1,143 @@
+.pricing__section {
+  padding: 100px 0 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.pricing__container-card {
+  width: 280px;
+  height: auto;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.pricing__container-card h2{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+
+.pricing__container-card:nth-child(2) {
+  border-right: none;
+  border-left: none;
+}
+
+.margin-top-bottom {
+  margin-top: 100px;
+}
+
+.pricing__container-card:nth-child(3) {
+  background: #fbfbfb;
+}
+
+.pricing__container-card:nth-child(4) {
+  border-left: none;
+}
+
+.pricing__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.pricing__heading {
+  color: #1c2237;
+  margin-bottom: 24px;
+}
+
+.pricing__container-cardInfo {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 24px;
+  align-items: center;
+  color: #fff;
+}
+
+.pricing__container-cardInfo h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+.pricing__container-cardInfo h4 {
+  font-size: 40px;
+  margin: 0 0 25px 0;
+}
+
+.pricing__container-cardInfo p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.pricing__container-features {
+  margin: 16px 0 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.pricing__container-features li {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #c8c8c8;
+  padding-bottom: 10px;
+}
+
+.pricing__container-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px 0 0 0;
+}
+
+.icon {
+  margin: 24px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .pricing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricing__container-card {
+    width: 90%;
+  }
+
+  .pricing__wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing__container-card {
+    margin-bottom: 20px;
+  }
+
+  .pricing__container-card:nth-child(2) {
+    border-right: 1px dotted #e8e8e8;
+    border-left: 1px dotted #e8e8e8;
+  }
+
+  .pricing__container-card:nth-child(4) {
+    border-left: 1px dotted #e8e8e8;
+    margin-bottom: none;
+  }
+
+}

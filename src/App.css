@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  color: #242424;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.cntct-page {
+  background: red;
+  height: 350px;
+  text-align: center;
+  padding: 55px 0;
+}
